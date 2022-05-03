@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsoleGame.Base.GameField">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIACAAjAAAAAEAAAAAAAAgAYAAAAAAAAQAAQA=</HashCode>
+      <FileName>Base\GameField.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Items" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ConsoleGame.Base.ItemOnField">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAgggAAABAAAAAgABARAAAAAgAAQAAAA=</HashCode>
+      <FileName>Base\ItemOnField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Blocks.Intersectable.HorizontalBorder" Collapsed="true">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Blocks\Intersectable\HorizontalBorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Blocks.Intersectable.VerticalBorder" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="ConsoleGame.Base.ItemOnField" FixedFromPoint="true">
+      <Path>
+        <Point X="11.25" Y="2.875" />
+        <Point X="2.875" Y="2.875" />
+        <Point X="2.875" Y="2.096" />
+        <Point X="2.5" Y="2.096" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Blocks\Intersectable\VerticalBorder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Blocks.Intersectable.Wall" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Blocks\Intersectable\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Blocks.NonIntersect.Target" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Blocks\NonIntersect\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.SettingsModel" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQAAAEAQCQAAAAAoAAEMAQgUAEAgAAAAABBBQE=</HashCode>
+      <FileName>SettingsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Behaves.Behaviour" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\BehaveAs\Behaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Behaves.ComradeBehaviour" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\BehaveAs\ComradeBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Behaves.EnemyBehaviour" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\BehaveAs\EnemyBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Behaves.PlayerBehaviour" Collapsed="true">
+    <Position X="3.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\BehaveAs\PlayerBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Dude.Enemy" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\Dude\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Dude.GunMan" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="ConsoleGame.Base.ItemOnField" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="2.5" />
+        <Point X="10.875" Y="2.816" />
+        <Point X="4" Y="2.816" />
+        <Point X="4" Y="2.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\Dude\GunMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Builder.Units.Dude.Player" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Units\Dude\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.Program">
+    <Position X="15.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAAAAAAIAAAAAAAAAAAAAABAAAABAAAAAI=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleGame.ScenePlayer.InputController">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="ConsoleGame.ScenePlayer.InputController.KeyPressedEventHandler">
+        <TypeIdentifier>
+          <NewMemberFileName>ScenePlayer\InputController.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="gameField" Type="ConsoleGame.Base.GameField" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="20" Y="5.703" />
+        <Point X="20" Y="6.003" />
+        <Point X="18.45" Y="6.003" />
+        <Point X="18.45" Y="5.55" />
+        <Point X="17.583" Y="5.55" Type="JumpStart" />
+        <Point X="17.417" Y="5.55" Type="JumpEnd" />
+        <Point X="15.333" Y="5.55" Type="JumpStart" />
+        <Point X="15.167" Y="5.55" Type="JumpEnd" />
+        <Point X="14.25" Y="5.55" />
+        <Point X="14.25" Y="4.559" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAAAAAAAAAAAAAAAAAAAAAARBIAACAWBAAAA=</HashCode>
+      <FileName>ScenePlayer\InputController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameField" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ConsoleGame.ScenePlayer.ScenePlayer">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAAAAAAAAAAAAAAAAAIAIABAAAAAAAA=</HashCode>
+      <FileName>ScenePlayer\ScenePlayer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="InputController" />
+      <Field Name="Setup" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="ConsoleGame.Base.Enums.ItemDirection">
+    <Position X="19.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAQAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Base\Enums\ItemDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ConsoleGame.Builder.Blocks.Enums.CellType" Collapsed="true">
+    <Position X="21.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAABCAAAAAAUAIAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Blocks\Enums\CellType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
